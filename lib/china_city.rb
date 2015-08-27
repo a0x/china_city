@@ -39,6 +39,16 @@ module ChinaCity
       return "#{prepend_parent ? (province_text + city_text) : ''}#{children[id][:text]}"
     end
 
+    def get_province_id(name)
+      ChinaCity.list.each do |c|
+        if c[0] == name || c[0].include? name
+          return c[1]
+        else
+          return 0
+        end
+      end
+    end
+
     def province(code)
       match(code)[1].ljust(6, '0')
     end
