@@ -7,9 +7,9 @@ require "china_city/version"
 Gem::Specification.new do |s|
   s.name        = "china_city"
   s.version     = ChinaCity::VERSION
-  s.authors     = ["saberma"]
-  s.email       = ["mahb45@gmail.com"]
-  s.homepage    = "https://github.com/saberma/china_city"
+  s.authors     = ["saberma", "Alvin Qi"]
+  s.email       = ["peng.edy@gmail.com"]
+  s.homepage    = "https://github.com/a0x/china_city"
   s.summary     = "a gem to help you select chinese area"
   s.description = "a gem to help you select chinese area like province, city and district"
   s.license     = 'MIT'
